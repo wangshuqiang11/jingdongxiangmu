@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--
+        startColor:左侧起始颜色
+        android:centerColor:中间过度颜色
+        endColor:右侧结束颜色
+        angle表示方向角度。当angle=0时，渐变色是从左向右。
+         然后逆时针方向转，当angle=90时为从下往上
+    -->
+        <gradient
+            android:startColor="#F9F9F9"
+            android:endColor="#A1A1A4"
+            android:angle="0" />
+    <!--
+        corners:圆角，radius:圆角的值
+     -->
+    <corners android:radius="25dip" />
+</shape>

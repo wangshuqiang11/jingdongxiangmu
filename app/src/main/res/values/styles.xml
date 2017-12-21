@@ -1,0 +1,110 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="index_bottom_nav">
+        <!--内部内容居中显示-->
+        <item name="android:gravity">center</item>
+        <!--取消自带的小圆圈-->
+        <item name="android:button">@null</item>
+        <!--利用权重，平均分配底部宽度-->
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">#999</item>
+    </style>
+
+    <style name="index_top_code">
+        <item name="android:scaleType">center</item>
+        <item name="android:layout_width">50dip</item>
+        <item name="android:layout_height">50dip</item>
+        <item name="android:background">@drawable/selector_color_main_add</item>
+    </style>
+
+    <style name="index_top_input">
+        <item name="android:focusable">false</item>
+        <item name="android:hint">搜索一下</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingLeft">8dip</item>
+        <item name="android:paddingRight">8dip</item>
+        <item name="android:layout_height">50dip</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColorHint">@color/greySub</item>
+        <item name="android:drawableRight">@mipmap/ic_edit_search</item>
+        <item name="android:background">@drawable/bg_edit_text_search</item>
+    </style>
+
+
+    <style name="index_top_right">
+        <item name="android:scaleType">center</item>
+        <item name="android:layout_width">50dip</item>
+        <item name="android:layout_height">50dip</item>
+        <item name="android:background">@drawable/selector_color_main_add</item>
+    </style>
+
+    <style name="user_line_two">
+        <item name="android:padding">18dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">55dp</item>
+        <item name="android:layout_height">55dp</item>
+    </style>
+
+    <style name="user_line_linear">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:background">@color/userLTwoBackground</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="user_line_three">
+        <item name="android:textSize">18sp</item>
+        <!--<item name="android:paddingLeft">7dp</item>-->
+        <item name="android:textColor">@color/white</item>
+        <!--<item name="android:paddingBottom">16dp</item>-->
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="user_main_linear">
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+
+    <style name="user_main_linear_linear">
+        <item name="android:layout_marginLeft">-10dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="user_main_linear_linear2">
+        <item name="android:layout_marginLeft">-10dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!-- 自定义输入框样式 -->
+    <style name="MyEditText" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@android:color/darker_gray</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+    </style>
+</resources>
